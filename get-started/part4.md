@@ -415,6 +415,10 @@ browser, hitting refresh (or just `curl` them).
 
 ![Hello World in browser](images/app-in-browser-swarm.png)
 
+> Connection refused?
+>
+> You may need to specify the port, 4000, after your node's ip address.
+
 There are five possible container IDs all cycling by randomly, demonstrating
 the load-balancing.
 
